@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(244, 244, 244)
+}
+
+@import url("https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300|Playfair+Display|Quattrocento+Sans|Shadows+Into+Light|Ubuntu");
+h3 {
+    color: rgb(231, 218, 217);
+    font-size: 150px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    margin: 0;
+}
+
+#box {
+    color: black;
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+    margin: 0px auto;
+    background: white;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15), 0 10px 0 -5px #eee, 0 10px 1px -4px rgb(0, 0, 0, 0.15), 0 20px 0 -10px #eee, 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    height: 50px;
+    width: 600px;
+    font-size: 20px;
+    margin-left: 660px;
+    border: transparent;
+    font-family: 'Open Sans Condensed';
+    border: transparent
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+li {
+    border-bottom: 1px solid #efefef;
+    list-style-type: none;
+    line-height: 20px;
+    width: 600px;
+    margin-left: -35px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+    padding: 10px
+}
+
+#bottom {
+    display: flex
+}
+
+#x {
+    border: transparent;
+    margin-left: 550px;
+    font-size: 10px
+}
