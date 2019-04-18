@@ -68,3 +68,11 @@ li {
     margin-left: 550px;
     font-size: 10px
 }
+
+button {
+    color: black;
+    border: transparent;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed';
+    margin-left: 40px;
+}
